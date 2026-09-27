@@ -1,0 +1,14 @@
+[cookies-without-secure] [javascript] [info] localhost:8080 ["PHPSESSID","security"]
+[cookies-without-httponly] [javascript] [info] localhost:8080 ["PHPSESSID","security"]
+[waf-detect:apachegeneric] [http] [info] http://localhost:8080
+[mDNS-enum] [javascript] [low] localhost:5353 ["airplay"]
+[http-missing-security-headers:strict-transport-security] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:permissions-policy] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:x-frame-options] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:referrer-policy] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:content-security-policy] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:x-content-type-options] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://localhost:8080/login.php
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://localhost:8080/login.php

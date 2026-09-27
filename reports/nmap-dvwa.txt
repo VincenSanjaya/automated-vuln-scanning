@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Sat Sep 26 22:49:03 2026 as: nmap -sV -p 8080 -oN reports/nmap-dvwa.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00068s latency).
+
+PORT     STATE SERVICE VERSION
+8080/tcp open  http    Apache httpd 2.4.25 ((Debian))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 26 22:49:10 2026 -- 1 IP address (1 host up) scanned in 6.57 seconds

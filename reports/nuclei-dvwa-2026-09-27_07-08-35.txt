@@ -1,0 +1,2 @@
+[cookies-without-httponly] [javascript] [info] localhost:8080 ["PHPSESSID","security"]
+[cookies-without-secure] [javascript] [info] localhost:8080 ["PHPSESSID","security"]

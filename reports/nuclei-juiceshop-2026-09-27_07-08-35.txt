@@ -1,0 +1,1 @@
+[wildcard-dns-detect] [dns] [info] 3Jt5sBea2Pu6GTm6wPrlf1FIZuU-3Jt5sBea2Pu6GTm6wPrlf1FIZuU.localhost ["127.0.0.1"]

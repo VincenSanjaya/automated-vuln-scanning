@@ -1,0 +1,25 @@
+Automated Vulnerability Scan Report
+Generated: Sun Sep 27 07:10:27 WIB 2026
+
+Targets:
+- http://localhost:3000
+- http://localhost:8080
+
+===== NMAP RESULTS =====
+# Nmap 7.98 scan initiated Sun Sep 27 07:08:36 2026 as: nmap -sV -p 3000,8080 -oN reports/nmap-2026-09-27_07-08-35.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00093s latency).
+
+PORT     STATE  SERVICE VERSION
+3000/tcp closed ppp
+8080/tcp open   http    Apache httpd 2.4.25 ((Debian))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 27 07:08:43 2026 -- 1 IP address (1 host up) scanned in 6.74 seconds
+
+===== JUICE SHOP NUCLEI RESULTS =====
+[wildcard-dns-detect] [dns] [info] 3Jt5sBea2Pu6GTm6wPrlf1FIZuU-3Jt5sBea2Pu6GTm6wPrlf1FIZuU.localhost ["127.0.0.1"]
+
+===== DVWA NUCLEI RESULTS =====
+[cookies-without-httponly] [javascript] [info] localhost:8080 ["PHPSESSID","security"]
+[cookies-without-secure] [javascript] [info] localhost:8080 ["PHPSESSID","security"]
